@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMindBody</title>
+
+    <!-- ICONSOUT CON -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="about.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><b>FitMindBody</b></a>
+            <ul class="nav__menu">
+              <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+              </ul>
+            </ul>
+          </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <br><br>
+                <form style="text-align: center;">
+                    <h3>Kindly Fill The Details To Join Us and Enroll in our <u style="color: yellow;">Membership 
+                    Program</u> (Seats are limited!!)</h3> <br><br>
+                    <div class="form-group" style="text-align: relative;">
+                      <label>Name: </label>
+                      <br>
+                      <input type="name" class="form-control" id= aria-describedby="emailHelp" size="30" placeholder="  Enter your name..." required/><br><br>
+                      <!-- <small id="emailHelp" class="form-text text-muted">(We'll never share your email with anyone else).</small><br><br> -->
+                    </div>
+                    <div class="form-group" style="text-align: relative;">
+                      <label for="exampleInputEmail1">Email address: </label><br>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="  Enter email..." size="30" required/>
+                    </div><br>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary" onclick="Contact()">Submit</button>
+                  </form> <br> 
+                   
+        
+          
+          <!--<footer style="text-align: center;">
+                For more information Email Us at: <u style="color: aqua;">ms6552848@gmail.com</u> Or Contact Us at <u style="color: aqua;">+91 7506030279</u>
+
+            </footer>-->
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <!-- <img src="./images/ai-codeslady.jpg" alt="AI"> -->
+                </div>
+            </div>
+        </div>
+
+    
+
+    </header>
+
+    <script>
+        function Contact(){
+            alert("Thank You for Registering, we'll get back to you soon");
+        }
+      </script>
+</body>
+
+<script src="main.js"></script>
+
+<footer>
+    <!-- Chatbot API -->
+    <!-- <iframe src="https://www.chatbase.co/chatbot-iframe/wudlHSxIsPx8k5QsmhnJ9" width="100%" -->
+        <!-- style="height: 100%; min-height: 700px; color: blue;" frameborder="0"></iframe> -->
+
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "wudlHSxIsPx8k5QsmhnJ9",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="wudlHSxIsPx8k5QsmhnJ9" domain="www.chatbase.co" defer>
+    </script>
+</footer>
+
+</html>
